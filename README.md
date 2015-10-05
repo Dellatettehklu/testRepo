@@ -3,12 +3,10 @@ Test Repository, delete this later
 
 ## this is h2
 
+###this is h3
 
-### this is h3
-
-*bullet
+*bullet list
 *another item
 
-0.tis is a numbered list
-0.this is another
-1. knvkjzvkjndfnv
+0. this is a numbered list
+1. this is another
