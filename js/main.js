@@ -1,11 +1,16 @@
-var red;
+var red blue;
 
 function setup(){
     red = color(255,0,0);
+    blue =color(0,0,255);
 
 }
 
 function draw(){
-    fill(red);
-    ellipse(200,200,50,50);
+    if(mouseIsPressed){
+        line(pmouseX, pmouseY, mouseX, mouseY);
+    }
 }
+ function mousePressed(){
+     console.log('mousepressed');
+ }
